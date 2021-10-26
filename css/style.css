@@ -1,0 +1,57 @@
+.hidden {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 100;
+}
+/* ====GOOGLE FONTS==== */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+/* ====VARIABLES CSS==== */
+:root {
+  --hue: 14;
+  --body-font: "Noto Sans KR", sans-serif;
+  --text-color: hsl(var(--hue), 50%, 0%);
+  --main-bg-color: #f5f5f5;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--text-color);
+}
+.main {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  top: 5rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1.5rem 0 1.5rem;
+}
+/* ====BACKGROUND IMG==== */
+.bgImg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+/* ====CLOCK==== */
+/* ====WEATHER==== */
+/* ====QUOTES==== */
+#quote {
+  text-align: center;
+}
+#quote p:first-child {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+#quote p:last-child {
+  font-size: 0.8rem;
+  font-weight: 550;
+}
+/* ====LOGIN==== */
+/* ====TODOS=== */
+/* background-color: var(--main-bg-color); */
